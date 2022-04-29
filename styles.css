@@ -1,0 +1,59 @@
+      body{
+            background-image: url('images/Screenshot_20220425_202424.jpg');
+            background-size: cover;
+            
+            background-repeat: no-repeat;
+      }
+      .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  opacity: 0h5;
+}
+.custom-toggler.navbar-toggler {
+  border-color: white;
+} 
+#btn-back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: none;
+border-radius: 50%;
+}
+html{
+  scroll-behavior: smooth;
+}
+.carousel-inner img {
+  margin: auto;
+
+}
+.ic{
+  text-decoration: none;
+}
+.ic:hover{
+  color: yellowgreen;
+}
+.mkisii-ico{
+  height: 10px;
+  width: 10px;
+}
+.card{
+  align-items: center;
+}
+.card{
+  margin-top: 70px;
+}
+.jumbotron {
+background: #f8f40a;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+.mm{
+  margin-top: 100px;
+}
